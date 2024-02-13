@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/883886845b.js" crossorigin="anonymous"></script>
+    <script src="/index.js" defer></script>
+<body>
+    <header id="header-container">
+        <!-- Heading -->
+        <h1 class="glow">James Ahn</h1>
+        <div id="toggle">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="checkbox">
+                <i class="fa-regular fa-sun"></i>
+                <i class="fa-solid fa-moon"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </header>
+    <main id="container">
+        <section id="personal-info">
+            <h2>&#x21B3; About Me</h2>
+            <p>
+                I am a recent computer science graduate aiming to start a career in full-stack web development. 
+                I have good working knowledge of Java, Python, HTML, CSS, and JavaScript, and I am currently 
+                gaining more familiarity with React, Express, and Node.js. I also have good working knowledge 
+                of MySQL and MongoDB. 
+            </p>
+            <br />
+            <h2>&#x21B3; Contact</h2>
+            <ul style="list-style-type: none;">
+                <li><a href="mailto:ahnjames01@gmail.com">&#9993; ahnjames01@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/james-ahn-52aa5951/" target="_blank"><i class="fa-brands fa-linkedin" style="font-size: 16px;"></i> LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>&#x21B3; Projects</h2>
+            <div>
+                <h3>01. Hotel Property Management Application</h3>
+                <p>
+                    This is a desktop application that was built in my Software Design class at university using Java, 
+                    Java Swing, and MySQL. Hotel staff would use this application to create and manage customer reservations, 
+                    check-in/check-out reservations, and manage room status and conditions. Access controls were built-in to 
+                    simplify the UX for users and for security. I helped build much of the front-end of this project. 
+                    Please check out the quick demo below to see it in action! The source code can be found 
+                    <a class="text-links" href="https://github.com/Miguel-Graham/EECS3311_Group_Project_Workspace.git" target="_blank">here</a>.
+                </p>
+                <video controls muted width="500">
+                    <source src="./hotel-desktop-app-demo.mp4">
+                </video>
+            </div>
+            <br />
+            <div>
+                <h3>02. Simple Stock Dashboard</h3>
+                <p>
+                    This is a web application that I built using HTML, CSS, and JavaScript that ties together my interests in 
+                    finance and technology. It uses a <a class="text-links" href="https://www.alphavantage.co/" target="_blank">third-party API</a> 
+                    provider to request and receive daily stock prices and company financial data. The user can also perform a 
+                    discounted cash flow analysis to arrive at an implied share price for a stock based on their assumption inputs.
+                    The source code can be found <a class="text-links" href="https://github.com/0xblockhead/simple-stock-dashboard.git" target="_blank">here</a>.
+                </p>
+                <video controls muted width="500">
+                    <source src="./stock-dashboard-demo.mp4">
+                </video>
+            </div>
+        </section>
+    </main>
+    <hr />
+    <footer style="text-align:right;">&copy 2024</footer>
+</body>
+</html>
