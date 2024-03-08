@@ -140,6 +140,14 @@ h1 {
 }
 
 @media all and (max-width: 500px) {
+  body {
+    display: grid;
+  }
+
+  #toggle {
+    left: 85%;
+  }
+
   #container {
     grid-template-columns: auto;
     grid-template-rows: auto;
