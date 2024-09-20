@@ -91,6 +91,10 @@ h1 {
     text-align: center;
 }
 
+footer {
+  text-align: right;
+}
+
 .glow {
   color: #fff;
   text-shadow: 
