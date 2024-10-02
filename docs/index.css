@@ -142,17 +142,10 @@ h1 {
 }
 
 @media all and (max-width: 500px) {
-  * {
-    width: 100vw;
-  }
 
   body {
-    display: grid;
+    display: grid;  
   }
-
-  /* #toggle {
-    left: 85%;
-  } */
 
   #container {
     grid-template-columns: auto;
