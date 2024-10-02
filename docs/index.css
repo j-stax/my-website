@@ -11,14 +11,16 @@ body {
 }
 
 #header-container {
-  position: relative;
-  overflow: hidden;
+  text-align: center;
+}
+
+#header {
+  display: inline-block;
 }
 
 #toggle {
-  position: absolute;
-  top: 5%;
-  left: 94%;
+  float: right;
+  margin-right: 2%;
 }
 
 #checkbox {
@@ -148,9 +150,9 @@ h1 {
     display: grid;
   }
 
-  #toggle {
+  /* #toggle {
     left: 85%;
-  }
+  } */
 
   #container {
     grid-template-columns: auto;
