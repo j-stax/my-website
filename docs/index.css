@@ -139,7 +139,7 @@ h1 {
   }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 100vw) {
   body {
     display: grid;
   }
