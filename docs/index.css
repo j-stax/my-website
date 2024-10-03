@@ -144,7 +144,7 @@ h1 {
 @media all and (max-width: 500px) {
   body {
     display: grid;
-    width: 100vw;  
+    max-width: 100vw;  
   }
 
   #container {
